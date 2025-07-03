@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    let stadiumClass = StadiumClass()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(stadiumClass.stadiums) { stadium in
+            HStack {
+                // Stadium Image
+                Image(stadium.imageStadium)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 150, height: 150)
+                    .shadow(color: .white, radius: 1)
+                    
+                    
+                VStack(alignment: .leading) {
+                    // Stadium Name
+                    Text(stadium.name)
+                        .fontWeight(.bold)
+                    
+                    // Stadium Type
+                    Text(stadium.type.rawValue)
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .padding(.horizontal, 13)
+                        .padding(.vertical, 5)
+                        .background(stadium.type.background)
+                        .clipShape(.capsule)
+                }
+            }
         }
-        .padding()
+        .preferredColorScheme(.dark)
     }
 }
 

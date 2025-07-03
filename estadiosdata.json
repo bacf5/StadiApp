@@ -89,7 +89,7 @@
     },
     {
         "id": 6,
-        "name": "GEODIS Park",
+        "name": "GEODIS Park Stadium",
         "type": "Futbol",
         "capacity": 30.109,
         "latitude": 36.12863,
@@ -155,7 +155,7 @@
     },
     {
         "id": 10,
-        "name": "Lincoln Financial Field",
+        "name": "Lincoln Financial Field Stadium",
         "type": "NFL",
         "capacity": 67.594,
         "latitude": 39.90060,
@@ -175,7 +175,7 @@
     },
     {
         "id": 11,
-        "name": "Lumen Field",
+        "name": "Lumen Field Stadium",
         "type": "Futbol",
         "capacity": 69.274,
         "latitude": 47.59645,
@@ -193,7 +193,7 @@
     },
     {
         "id": 12,
-        "name": "Audi Field",
+        "name": "Audi Field Stadium",
         "type": "Futbol",
         "capacity": 20.000,
         "latitude": 38.86838,
