@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "name": "Mercedes-Benz Stadium",
+        "type": "Futbol",
+        "capacity": 71.309,
+        "latitude": 33.75544,
+        "longitude": -84.40045,
+        "matches": [
+            "Chelsea 2 - 0 Los Angeles FC",
+            "Inter Miami CF 2 - 1 Porto",
+            "Manchester City 6 - 0 Al Ain",
+            "Paris Saint-Germain 4 - 0 Inter Miami CF",
+            "Borussia Dortmund 2 - 1 Monterrey",
+            "Paris Saint-Germain vs Bayern Munich"
+        ],
+        "info": "Home to the MLS team Atlanta United and the NFL’s Atlanta Falcons, Mercedes-Benz Stadium boasts a retractable roof and 360-degree halo video display. Eight FIFA World Cup 26™ matches will take place in Atlanta, including a semifinal game and two other knockout matchups. The MLS All-Star Game, College Football Playoff National Championship game, NFL Super Bowl LIII, numerous international friendlies, and concerts from global superstars have all taken place at this spectacular arena.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/atlanta-mercedes-benz"
+    },
+    {
+        "id": 2,
+        "name": "Bank of America Stadium",
+        "type": "Futbol",
+        "capacity": 74.867,
+        "latitude": 35.22499,
+        "longitude": -80.85410,
+        "matches": [
+            "Real Madrid 3 - 1 Pachuca",
+            "Benfica 1 - 0 Bayern Munich",
+            "Chelsea 4 - 1 Benfica",
+            "Flumninense 2 - 0 Inter Milan",
+        ],
+        "info": "MLS expansion franchise Charlotte FC have used Bank of America Stadium as their home ground since their opening season in 2022, with their debut match drawing a crowd in excess of 70,000. The venue is well versed in hosting soccer fixtures, with a number of international and club friendlies having been held here, in addition to Concacaf Gold Cup dates and two knockout games in the 2024 Copa America. NFL outfit Carolina Panthers have called the Charlotte venue home since 1996 and it has been used for several play-off matches.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/charlotte-bank-of-america"
+    },
+    {
+        "id": 3,
+        "name": "TQL Stadium",
+        "type": "Futbol",
+        "capacity": 26.000,
+        "latitude": 39.11016,
+        "longitude": -84.52195,
+        "matches": [
+            "Bayern Munich 10 - 0 Auckland City",
+            "Pachuca 1 - 2 Red Bull Salzburg",
+            "Mamelodi Sundowns 3 - 4 Borussia Dortmund",
+            "Borussia Dortmund 1 - 0 Ulsan HD"
+        ],
+        "info": "The award-winning TQL Stadium may only have been completed in 2021, but it has already played host to a number of memorable club and international fixtures. The USMNT’s first visit to the venue came in November 2021, when they recorded an impressive 2-0 victory over Mexico in FIFA World Cup qualifying for Qatar 2022. MLS side FC Cincinnati play their home fixtures here, while the USWNT have enjoyed two goal-laden outings with victories over Paraguay (8-0) and South Africa (3-0) in 2021 and 2023 respectively.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/cincinnati-tql"
+    },
+    {
+        "id": 4,
+        "name": "Rose Bowl Stadium",
+        "type": "NFL",
+        "capacity": 89.702,
+        "latitude": 34.16128,
+        "longitude": -118.16756,
+        "matches": [
+            "Paris Saint-Germain 4 - 0 Atletico Madrid",
+            "Monterrey 1 - 1 Inter Milan",
+            "Paris Saint-Germain 0 - 1 Botafogo",
+            "River Plate 0 - 0 Monterrey",
+            "Atletico Madrid 1 - 0 Botafogo",
+            "Urawa Red Diamonds 0 - 4 Monterrey",
+        ],
+        "info": "There are few more iconic stadia across the world than Pasadena’s Rose Bowl, which celebrated its centenary in 2022. The sweeping seating throughout the circular arena provides an uninterrupted view to the playing field for all spectators, and was the venue for the FIFA World Cup Final™ in 1994, when Brazil were crowned champions for the fourth time in their history following a dramatic penalty shootout victory over Italy. The FIFA Women’s World Cup Final™ of 1999 also took place here, when the host nation prevailed on penalties against China PR.  ",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/los-angeles-rose-bowl"
+    },
+    {
+        "id": 5,
+        "name": "Hard Rock Stadium",
+        "type": "NFL",
+        "capacity": 64.767,
+        "latitude": 25.95711,
+        "longitude": -80.23729,
+        "matches": [
+            "Al Ahly 0 - Inter Miami CF",
+            "Boca Juniors 2 - 2 Benfica",
+            "Real Madrid 1 - 1 Al Hilal",
+            "Bayern Munich 2 - 1 Boca Juniors",
+            "Inter Miami CF 2 - 2 Palmeiras",
+            "Mamelodi Sundowns 0 - 0 Fluminense",
+            "Flamengo 2 - 4 Bayern Munich",
+            "Real Madrid 1 - 0 Juventus",
+        ],
+        "info": "The stadium hosts a multitude of events and is home to NFL’s Miami Dolphins, Formula 1 Miami Grand Prix, the Miami Open tennis tournament, University of Miami, Orange Blossom Classic and Orange Bowl college football games, Jazz in the Gardens and other festivals. Six Super Bowls, multiple major concerts and international soccer matches have taken place here, and it is another venue on the roster for FIFA World Cup 26. The venue will have the honour of hosting the opening match at the Club World Cup, in the same state where host nation club Inter Miami are based.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/miami-hard-rock"
+    },
+    {
+        "id": 6,
+        "name": "GEODIS Park",
+        "type": "Futbol",
+        "capacity": 30.109,
+        "latitude": 36.12863,
+        "longitude": -86.76571,
+        "matches": [
+            "Los Angeles FC 0 - 1 Espérance de Tunis",
+            "Auckland City 1 - 1 Boca Juniors",
+            "Al-Hilal 2 - 0 CF Pachuca"
+        ],
+        "info": "The most recently constructed stadium on the roster for the FIFA Club World Cup, GEODIS Park is the largest soccer-specific stadium in the US and Canada, with fans throughout the ground brought close to the action, with the furthest distance from seat to touchline standing at 150 feet. The home venue for MLS side Nashville SC, the newly built arena has already welcomed both the USMNT and the USWNT and has hosted several major concerts, including Shania Twain, P!nk and Green Day.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/nashville-geodis-park"
+    },
+    {
+        "id": 7,
+        "name": "MetLife Stadium",
+        "type": "NFL",
+        "capacity": 82.500,
+        "latitude": 40.81375,
+        "longitude": -74.07429,
+        "matches": [
+            "Palmeiras 0 - 0 Porto",
+            "Fluminense 0 - 0 Borussia Dortmund",
+            "Palmeiras 2 - 0 Al Ahly",
+            "Fluminense 4 - 2 Ulsan HD",
+            "Porto 4 - 4 Al Ahly",
+            "Real Madrid vs Borussia Dortmund",
+            "TBA",
+            "TBA",
+            "TBA",
+        ],
+        "info": "This multipurpose stadium currently hosts the NFL's New York Giants and New York Jets, and was the venue for the final of the 2016 Copa America Centenario, when Chile defeated Lionel Messi’s Argentina on penalties. Numerous A-list performers have featured here, including Bruce Springsteen and The E Street Band, Beyonce, Ed Sheeran and Taylor Swift. The venue has been chosen to host the FIFA World Cup 26 Final, on top of two further knockout ties and five group-stage matches.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/new-york-new-jersey-metlife"
+    },
+    {
+        "id": 8,
+        "name": "Camping World Stadium",
+        "type": "NFL",
+        "capacity": 60.219,
+        "latitude": 28.53862,
+        "longitude": -81.40277,
+        "matches": [
+            "Los Angeles FC 1 - 1 Flamengo",
+            "Juventus 2 - 5 Manchester City",
+            "Manchester City 3 - 4 Al-Hilal",
+            "Fluminense vs Al-Hilal",
+        ],
+        "info": "Originally opened almost 90 years ago, Camping World Stadium has undergone multiple expansions and re-fits in the intervening years, culminating in the 2014 redevelopment which saw the creation of a 90 per cent all-new stadium following an investment of over $200 million. A host of sporting, entertainment and musical events have taken place at the Orlando venue, with The Rolling Stones, Paul McCartney, Billy Joel and Elton John all taking to the stage, while WrestleMania XXIV wowed a venue-record crowd of 74,635 in 2008. ",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/orlando-camping-world"
+    },
+    {
+        "id": 9,
+        "name": "Inter and Co Stadium",
+        "type": "Futbol",
+        "capacity": 25.500,
+        "latitude": 28.54078,
+        "longitude": -81.38891,
+        "matches": [
+            "Ulsan HD 0 - 1 Mamelodi Sundowns",
+            "Benfica 6 - 0 Auckland City",
+        ],
+        "info": "This soccer-specific venue is the home ground of MLS outfit Orlando City and National Women's Soccer League (NWSL) side Orlando Pride. Both the USMNT and USWNT have graced the field at Inter&Co Stadium, with the men’s side featuring in FIFA World Cup qualifiers in 2018 and 2022, and the women’s team appearing during the SheBelieves Cup in 2018, 2020 and 2023. Away from soccer, the 2022 Special Olympics USA Games Opening Ceremony took place here.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/orlando-inter-co"
+    },
+    {
+        "id": 10,
+        "name": "Lincoln Financial Field",
+        "type": "NFL",
+        "capacity": 67.594,
+        "latitude": 39.90060,
+        "longitude": -75.16744,
+        "matches": [
+            "Flamengo 2 - 0 Espérance de Tunis",
+            "Manchester City 2 - 0 Wydad AC",
+            "Flamengo 3 - 1 Chelsea",
+            "Juventus 4 - 1 Wydad AC",
+            "Espérance de Tunis 0 - 3 Chelsea",
+            "Red Bull Salzburg 0 - 3 Real Madrid",
+            "Palmeiras 1 - 0 Botafogo",
+            "Palmeiras vs Chelsea",
+        ],
+        "info": "It is perhaps fitting that the first ticketed event at Lincoln Financial Field was the eye-catching friendly between European rivals Barcelona and Manchester United in August 2003, with Patrick Kluivert having the honour of scoring the venue’s first goal. Now home to NFL side Philadelphia Eagles, the impressive arena has also been selected to host five group-stage matches and a Round of 16 tie during the eagerly anticipated 48-team FIFA World Cup 26™.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/philadelphia-lincoln-financial-field"
+    },
+    {
+        "id": 11,
+        "name": "Lumen Field",
+        "type": "Futbol",
+        "capacity": 69.274,
+        "latitude": 47.59645,
+        "longitude": -122.33165,
+        "matches": [
+            "Botafogo 2 - 1 Seattle Sounders",
+            "River Plate 3 - 1 Urawa Red Diamonds",
+            "Seattle Sounders 1 - 3 Atletico Madrid",
+            "Inter Milan 2 - 1 Urawa red Diamonds",
+            "Seattle Sounders 0 - 2 Paris Saint-Germain",
+            "Inter Milan 2 - 0 River Plate",
+        ],
+        "info": "The city of Seattle has two reasons to celebrate the FIFA Club World Cup 2025, with Seattle Sounders having qualified as Concacaf Champions League winners in 2022 and the iconic Lumen Field - which boasts a unique horseshoe shape with an open north end that gives a stunning view of the city skyline – named as a host venue. Sounders will play all three group-stage games at the FIFA Club World Cup 2025™ at Lumen Field and their home stadium will host six matches in total. The beautiful game will return in 2026, with the stadium selected for FIFA World Cup 26, with four group-stage matches – which include USA’s second Group D meeting, a Round of 32 tie and a Round of 16 contest.",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/seattle-lumen-field"
+    },
+    {
+        "id": 12,
+        "name": "Audi Field",
+        "type": "Futbol",
+        "capacity": 20.000,
+        "latitude": 38.86838,
+        "longitude": -77.01286,
+        "matches": [
+            "Al Ain 0 - 5 Juventus",
+            "Red Bull Salzburg 0 - 0 Al-Hilal",
+            "Wydad AC 1 - 2 Al Ain",
+        ],
+        "info": "The most successful team in MLS history, DC United, call Audi Field home, alongside NWSL side Washington Spirit. The USWNT played their final warm-up match before the Paris Olympics at this venue, drawing 0-0 with Costa Rica before going on to claim gold under new coach Emma Hayes. The USMNT had mixed fortunes from their first two visits in 2019, losing the first 1-0 to Jamaica in an international friendly before a resounding 7-0 success over Cuba in Concacaf Nations League action. ",
+        "link": "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/stadiums/washington-dc-audi-field"
+    },
+    
+]
