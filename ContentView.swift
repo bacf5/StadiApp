@@ -11,15 +11,9 @@ struct ContentView: View {
     let stadiumClass = StadiumClass()
     
     @State var searchText = ""
+    
     var filteredStadiums: [Stadium] {
-        if searchText.isEmpty {
-            return stadiumClass.stadiums
-        } else {
-            return stadiumClass.stadiums.filter {
-                stadium in
-                stadium.name.localizedCaseInsensitiveContains(searchText)
-            }
-        }
+        return stadiumClass.search(for: searchText)
     }
     
     var body: some View {

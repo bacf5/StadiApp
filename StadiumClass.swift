@@ -15,13 +15,27 @@ class StadiumClass {
     }
     
     func decodeStadiumData() {
-        if let url = Bundle.main.url(forResource: "estadiosdata", withExtension: "json") {
+        if let url = Bundle.main.url(
+            forResource: "estadiosdata",
+            withExtension: "json"
+        ) {
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
                 stadiums = try decoder.decode([Stadium].self, from: data)
             } catch {
                 print("Error decoding JSON data: \(error)")
+            }
+        }
+    }
+    
+    func search(for searchText: String) -> [Stadium] {
+        if searchText.isEmpty {
+            return stadiums
+        } else {
+            return stadiums.filter {
+                stadiums in
+                stadiums.name.localizedCaseInsensitiveContains(searchText)
             }
         }
     }
