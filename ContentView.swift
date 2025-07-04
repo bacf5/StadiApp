@@ -11,8 +11,10 @@ struct ContentView: View {
     let stadiumClass = StadiumClass()
     
     @State var searchText = ""
+    @State var alphabetical = false
     
     var filteredStadiums: [Stadium] {
+        stadiumClass.sort(by: alphabetical)
         return stadiumClass.search(for: searchText)
     }
     
@@ -54,6 +56,27 @@ struct ContentView: View {
             .searchable(text: $searchText)
             .autocorrectionDisabled()
             .animation(.default, value: searchText)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button {
+                        withAnimation {
+                            alphabetical.toggle()
+                        }
+                    } label: {
+                        
+                        // With if statement
+                        
+//                        if alphabetical {
+//                            Image(systemName: "person.3")
+//                        } else {
+//                            Image(systemName: "textformat")
+//                        }
+                        // with ternary operator
+                        Image(systemName: alphabetical ? "person.3" : "textformat")
+                            .symbolEffect(.bounce, value: alphabetical)
+                    }
+                }
+            }
             
         }
         .preferredColorScheme(.dark)
@@ -63,3 +86,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+

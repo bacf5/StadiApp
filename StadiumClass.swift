@@ -39,5 +39,15 @@ class StadiumClass {
             }
         }
     }
+    
+    func sort(by alphabetical: Bool) {
+        stadiums.sort {stadium1, stadium2 in
+            if alphabetical {
+                stadium1.name < stadium2.name
+            } else {
+                stadium1.capacity > stadium2.capacity
+            }
+        }
+    }
 }
 
