@@ -23,19 +23,37 @@ struct Stadium: Decodable, Identifiable {
     var imageStadium: String {
         name.lowercased().replacingOccurrences(of: " ", with: "")
     }
+}
+
+enum StadiumType: String, Decodable, CaseIterable, Identifiable {
+    case All
+    case Futbol
+    case NFL
     
-    enum StadiumType: String, Decodable {
-        case Futbol
-        case NFL
+    var id: StadiumType {
+        self
+    }
+    
+    var background: Color {
+        switch self {
+        case .Futbol:
+                .green
+        case .NFL:
+                .brown
+        case .All:
+                .black
+        }
         
-        var background: Color {
-            switch self {
-            case .Futbol:
-                    .green
-            case .NFL:
-                    .brown
-            }
-            
+    }
+    
+    var icon: String {
+        switch self {
+        case .All:
+            "square.stack.3d.up.fill"
+        case .Futbol:
+            "soccerball"
+        case .NFL:
+            "american.football.fill"
         }
     }
 }

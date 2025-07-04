@@ -10,10 +10,14 @@ import SwiftUI
 struct ContentView: View {
     let stadiumClass = StadiumClass()
     
+    
     @State var searchText = ""
     @State var alphabetical = false
+    @State var currentSelection = StadiumType.All
     
     var filteredStadiums: [Stadium] {
+        stadiumClass.filter(by: currentSelection)
+        
         stadiumClass.sort(by: alphabetical)
         return stadiumClass.search(for: searchText)
     }
@@ -66,14 +70,33 @@ struct ContentView: View {
                         
                         // With if statement
                         
-//                        if alphabetical {
-//                            Image(systemName: "person.3")
-//                        } else {
-//                            Image(systemName: "textformat")
-//                        }
+                        //                        if alphabetical {
+                        //                            Image(systemName: "person.3")
+                        //                        } else {
+                        //                            Image(systemName: "textformat")
+                        //                        }
+                        
                         // with ternary operator
-                        Image(systemName: alphabetical ? "person.3" : "textformat")
-                            .symbolEffect(.bounce, value: alphabetical)
+                        
+                        Image(
+                            systemName: alphabetical ? "person.3" : "textformat.characters.arrow.left.and.right"
+                        )
+                        .symbolEffect(.bounce, value: alphabetical)
+                    }
+                }
+                
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Picker("Filter", selection: $currentSelection) {
+                            ForEach(StadiumType.allCases) { type in
+                                Label(
+                                    type.rawValue.capitalized,
+                                    systemImage: type.icon
+                                )
+                            }
+                        }
+                    } label: {
+                        Image(systemName: "slider.horizontal.3")
                     }
                 }
             }

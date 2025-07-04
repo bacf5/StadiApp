@@ -49,5 +49,15 @@ class StadiumClass {
             }
         }
     }
+    
+    func filter(by type: StadiumType) {
+        if type == .All {
+            
+        } else {
+            stadiums = stadiums.filter { stadium in
+                stadium.type == type
+            }
+        }
+    }
 }
 
