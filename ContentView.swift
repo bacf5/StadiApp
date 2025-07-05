@@ -26,9 +26,7 @@ struct ContentView: View {
         NavigationStack {
             List(filteredStadiums) { stadium in
                 NavigationLink {
-                    Image(stadium.imageStadium)
-                        .resizable()
-                        .scaledToFit()
+                    StadiumDetail(estadio: stadium)
                 } label: {
                     HStack {
                         // Stadium Image
