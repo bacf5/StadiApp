@@ -8,12 +8,15 @@
 import Foundation
 
 class StadiumClass {
-    var allStadiums : [Stadium] = []
-    var stadiums: [Stadium] = [] // here is going all the stadiums data form the JSON
     
     init() {
         decodeStadiumData()
     }
+    
+    var allStadiums: [Stadium] = []
+    var stadiums: [Stadium] = [] // here is going all the stadiums data form the JSON
+    
+    
     
     func decodeStadiumData() {
         if let url = Bundle.main.url(
