@@ -87,7 +87,7 @@ struct ContentView: View {
                 
                 ToolbarItem(placement: .topBarTrailing) {
                     Menu {
-                        Picker("Filter", selection: $currentSelection) {
+                        Picker("Filter", selection: $currentSelection.animation()) {
                             ForEach(StadiumType.allCases) { type in
                                 Label(
                                     type.rawValue.capitalized,
@@ -98,7 +98,7 @@ struct ContentView: View {
                     } label: {
                         Image(systemName: "slider.horizontal.3")
                     }
-                }
+                } 
             }
             
         }

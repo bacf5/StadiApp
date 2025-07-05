@@ -8,6 +8,7 @@
 import Foundation
 
 class StadiumClass {
+    var allStadiums : [Stadium] = []
     var stadiums: [Stadium] = [] // here is going all the stadiums data form the JSON
     
     init() {
@@ -22,7 +23,8 @@ class StadiumClass {
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
-                stadiums = try decoder.decode([Stadium].self, from: data)
+                allStadiums = try decoder.decode([Stadium].self, from: data)
+                stadiums = allStadiums
             } catch {
                 print("Error decoding JSON data: \(error)")
             }
@@ -52,9 +54,9 @@ class StadiumClass {
     
     func filter(by type: StadiumType) {
         if type == .All {
-            
+            stadiums = allStadiums
         } else {
-            stadiums = stadiums.filter { stadium in
+            stadiums = allStadiums.filter { stadium in
                 stadium.type == type
             }
         }
