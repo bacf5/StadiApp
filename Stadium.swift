@@ -23,6 +23,10 @@ struct Stadium: Decodable, Identifiable {
     var imageStadium: String {
         name.lowercased().replacingOccurrences(of: " ", with: "")
     }
+    
+    var imageClub: String {
+        name.lowercased().replacingOccurrences(of: " ", with: "") + "-team"
+    }
 }
 
 enum StadiumType: String, Decodable, CaseIterable, Identifiable {
