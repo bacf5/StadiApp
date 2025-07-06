@@ -51,7 +51,7 @@ struct StadiumMap: View {
 #Preview {
     StadiumMap(position:
             .camera(MapCamera(
-                centerCoordinate: StadiumClass().stadiums[4].location,
+                centerCoordinate: StadiumClass().stadiums[7].location,
                 distance: 1000,
                 heading: 180,
                 pitch: 60)))

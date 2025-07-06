@@ -12,7 +12,10 @@ import MapKit
 struct StadiumDetail: View {
     
     let estadio: Stadium
+    
     @State var position: MapCameraPosition
+    
+    @Namespace var namespace
     
     var body: some View {
         
@@ -60,13 +63,22 @@ struct StadiumDetail: View {
                         
                     // Stadium location
                     NavigationLink {
-                        Image(estadio.imageStadium)
-                            .resizable()
-                            .scaledToFit()
+                        StadiumMap(position:
+                                .camera(MapCamera(
+                                    centerCoordinate: estadio.location,
+                                    distance: 1000,
+                                    heading: 180,
+                                    pitch: 60)
+                                )
+                        )
+                        .navigationTransition(.zoom(sourceID: 1, in: namespace))
                         
                     } label: {
                         Map(position: $position) {
-                            Annotation(estadio.name, coordinate: estadio.location) {
+                            Annotation(
+                                estadio.name,
+                                coordinate: estadio.location
+                            ) {
                                 Image(systemName: "mappin.and.ellipse")
                                     .font(.largeTitle)
                                     .imageScale(.medium)
@@ -91,6 +103,7 @@ struct StadiumDetail: View {
                         .padding(.bottom)
                         
                     }
+                    .matchedTransitionSource(id: 1, in: namespace)
                     // Stadium info
                     Text(estadio.info)
                     
