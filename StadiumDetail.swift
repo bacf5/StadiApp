@@ -20,12 +20,28 @@ struct StadiumDetail: View {
                     Image(estadio.imageStadium)
                         .resizable()
                         .scaledToFit()
+                        .overlay{
+                            LinearGradient(
+                                stops: [
+                                    Gradient.Stop(
+                                        color: .clear,
+                                        location: 0.8
+                                    ),
+                                    Gradient.Stop(color: .black, location: 1)
+                                ],
+                                startPoint: .top,
+                                endPoint: .bottom
+                            )
+                        }
                     
                     // Club IMG
                     Image(estadio.imageClub)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: geo.size.width/2.5, height: geo.size.height/4)
+                        .frame(
+                            width: geo.size.width/2.5,
+                            height: geo.size.height/4
+                        )
                         .shadow(color: .black, radius: 8)
                         .offset(y: 55)
                         .offset(x: -30)
@@ -71,6 +87,6 @@ struct StadiumDetail: View {
 }
 
 #Preview {
-    StadiumDetail(estadio: StadiumClass().allStadiums[2])
-    //        .preferredColorScheme(.dark)
+    StadiumDetail(estadio: StadiumClass().allStadiums[5])
+        .preferredColorScheme(.dark)
 }
