@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+import MapKit
+
 
 struct StadiumDetail: View {
     
     let estadio: Stadium
+    @State var position: MapCameraPosition
     
     var body: some View {
         
@@ -56,7 +59,38 @@ struct StadiumDetail: View {
                         .font(.largeTitle)
                         
                     // Stadium location
-                    
+                    NavigationLink {
+                        Image(estadio.imageStadium)
+                            .resizable()
+                            .scaledToFit()
+                        
+                    } label: {
+                        Map(position: $position) {
+                            Annotation(estadio.name, coordinate: estadio.location) {
+                                Image(systemName: "mappin.and.ellipse")
+                                    .font(.largeTitle)
+                                    .imageScale(.medium)
+                                    .symbolEffect(.wiggle)
+                            }
+                        }
+                        .frame(height: 150)
+                        .overlay(alignment: .trailing) {
+                            Image(systemName: "greaterthan")
+                                .imageScale(.large)
+                                .font(.title3)
+                                .padding(.trailing, 8)
+                        }.overlay(alignment: .topLeading) {
+                            Text("Current Location")
+                                .padding([.leading, .bottom], 5)
+                                .padding(.trailing, 8)
+                                .background(.black.opacity(0.33))
+                                .clipShape(.rect(bottomTrailingRadius: 15))
+                        }
+                        .clipShape(.rect(cornerRadius: 15))
+                        .padding(.top)
+                        .padding(.bottom)
+                        
+                    }
                     // Stadium info
                     Text(estadio.info)
                     
@@ -83,10 +117,25 @@ struct StadiumDetail: View {
             }
         }
         .ignoresSafeArea()
+        .toolbarBackground(.automatic)
     }
 }
 
 #Preview {
-    StadiumDetail(estadio: StadiumClass().allStadiums[5])
+    
+    let stadium = StadiumClass().stadiums[2]
+    
+    NavigationStack {
+        StadiumDetail(
+            estadio: stadium,
+            position:
+                    .camera(
+                        MapCamera(
+                            centerCoordinate: stadium.location,
+                            distance: 10000
+                        )
+                    )
+        )
         .preferredColorScheme(.dark)
+    }
 }

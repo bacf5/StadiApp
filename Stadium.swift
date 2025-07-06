@@ -8,6 +8,7 @@
 // decoding the data with Decodable.
 
 import SwiftUI
+import MapKit
 
 struct Stadium: Decodable, Identifiable {
     let id: Int
@@ -22,6 +23,10 @@ struct Stadium: Decodable, Identifiable {
     
     var imageStadium: String {
         name.lowercased().replacingOccurrences(of: " ", with: "")
+    }
+    
+    var location: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
     
     var imageClub: String {

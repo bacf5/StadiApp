@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     let stadiumClass = StadiumClass()
@@ -26,7 +27,12 @@ struct ContentView: View {
         NavigationStack {
             List(filteredStadiums) { stadium in
                 NavigationLink {
-                    StadiumDetail(estadio: stadium)
+                    StadiumDetail(estadio: stadium, position: .camera(
+                        MapCamera(
+                            centerCoordinate: stadium.location,
+                            distance: 30000
+                        )
+                    ))
                 } label: {
                     HStack {
                         // Stadium Image
