@@ -7,7 +7,7 @@
 
 - [Description](#description)
 - [Motivation](#motivation)
-- [Built in](#built-in)
+- [Built with](#built-with)
 - [Concepts & Tools](#concepts-&-tools)
 - [Credits](#credits)
 - [Future Ideas](#future)
@@ -26,7 +26,7 @@ This app was created as part of my journey learning SwiftUI and exploring the Ap
 
 -----
 
-## Built in
+## Built with
 
 - Xcode 16
 - SwiftUI
@@ -34,6 +34,36 @@ This app was created as part of my journey learning SwiftUI and exploring the Ap
 -----
 
 ## Concepts & Tools
+
+<ul>
+  <li>List view <span aria-hidden="true"> · </span></li>
+  <li>Filter <span aria-hidden="true"> · </span></li>
+  <li>Sort</li>
+</ul>
+
+<!--- List view-->
+<!--- Filter-->
+<!--- Sort-->
+<!--- Search-->
+<!--- MapKit-->
+<!--- JSON-->
+<!--- Decodable-->
+<!--- Class-->
+<!--- Init-->
+<!--- Do Try Catch-->
+<!--- If Let-->
+<!--- NavigationStack-->
+<!--- NavigationLink-->
+<!--- Animation-->
+<!--- Toolbar-->
+<!--- Ternary Operator-->
+<!--- Picker-->
+<!--- ScrollView-->
+<!--- GeometryReader-->
+<!--- Link-->
+<!--- Map Styles-->
+<!--- Scale Effect-->
+<!--- Not Operator-->
 
 # <p style="text-align: center;"> Readme to finish </p>
 
