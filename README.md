@@ -1,13 +1,15 @@
-# <p style="text-align: center;"> StadiApp 🏟️ </p>
+<h2 align="center">
+  ✨ StadiApp 🏟️ ✨
+</h2>
 
 ## Table of Contents
 
 - [Description](#description)
 - [Motivation](#motivation)
 - [Built with](#built-with)
-- [Concepts & Tools](#concepts-&-tools)
+- [Concepts Used](#concepts-used)
 - [Credits](#credits)
-- [Future Ideas](#future)
+- [To-do](#to-do)
 
 
 ## Description
@@ -26,9 +28,42 @@ This app was created as part of my journey learning SwiftUI and exploring the Ap
 - SwiftUI
 
 
-## Concepts & Tools
+## Concepts Used
 
-• List view • Filter • Sort • Search • MapKit • JSON • Decodable • Class • Init • Do Try Catch • If Let • NavigationStack • NavigationLink • Animation • Toolbar • Ternary Operator • Picker • ScrollView • GeometryReader • Link • Map Styles • Scale Effect • Not Operator
+- List view
+- Filter
+- Sort
+- Search
+- MapKit
+- JSON
+- Decodable
+- Class
+- Init
+- Do Try Catch
+- If Let
+- NavigationStack
+- NavigationLink
+- Animation
+- Toolbar
+- Ternary Operator
+- Picker
+- ScrollView
+- GeometryReader
+- Link
+- Map Styles
+- Scale Effect
+- Not Operator
 
-# <p style="text-align: center;"> Readme to finish </p>
+## Credits
 
+Thanks to Kenneth Jones from [kayjayapps](https://kayjayapps.com/)
+
+## To-do
+
+- Add images to the readme about the app
+- Do some better styling in the app
+
+-----
+
+> [!NOTE]
+> Readme to finish.
