@@ -76,8 +76,11 @@ Thanks to Kenneth Jones from [kayjayapps](https://kayjayapps.com/)
 
 ## To-do
 
-- [x] ~~Add images to the readme about the app~~
-- [ ] Do some better styling in the app
+- [x] ~~Add images to the readme about the app.~~
+- [ ] Do some better styling in the app.
+- [ ] Add capacity info in StadiumDetail & MainView.
+- [ ] Fix some of the titles overlays the club image in StadiumDetail
+
 
 -----
 
