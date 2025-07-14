@@ -9,6 +9,7 @@
 - [Built with](#built-with)
 - [Concepts Used](#concepts-used)
 - [Credits](#credits)
+- [Demo](#demo)
 - [To-do](#to-do)
 
 
@@ -58,10 +59,25 @@ This app was created as part of my journey learning SwiftUI and exploring the Ap
 
 Thanks to Kenneth Jones from [kayjayapps](https://kayjayapps.com/)
 
+## Demo
+
+**GIF 1:** Demonstrates the app’s sorting functionality. Users can toggle between alphabetical sorting (A–Z) and sorting by stadium capacity (highest to lowest).
+
+**GIF 2:** Provides a preview of the StadiumDetail view, showcasing key information about the selected stadium, along with a look at the integrated StadiumMap view.
+
+**GIF 3:** Offers a similar view to the second GIF, highlighting both the StadiumDetail and StadiumMap features.
+
+![gif1](App-showcase/sort-capacity.gif). ![gif2](App-showcase/mapview-infoview.gif). ![gif3](App-showcase/infoview-mapview.gif)
+
+
+
+
+
+
 ## To-do
 
-- Add images to the readme about the app
-- Do some better styling in the app
+- [x] ~~Add images to the readme about the app~~
+- [ ] Do some better styling in the app
 
 -----
 
